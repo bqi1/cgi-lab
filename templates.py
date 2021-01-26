@@ -15,7 +15,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+# Helps in Question 4 section. Try MDN webpage for help
+# Google mdn set-cookie for Question 5?
+# Stack overflow python cgi set-cookie
 """
 Roll my own "template system".
 """
@@ -23,7 +25,7 @@ import cgi
 import cgitb
 cgitb.enable()
 
-from cgi import escape
+from html import escape
 
 __all__ = ['login_page', 'secret_page', 'after_login_incorrect']
 
